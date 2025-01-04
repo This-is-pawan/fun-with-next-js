@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import Navbar from "@/components/Navbar";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
          data-new-gr-c-s-check-loaded="14.1215.0"
  data-gr-ext-installed=""
       >
+        <Navbar/>
         {children}
     
       </body>
