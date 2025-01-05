@@ -1,10 +1,5 @@
-
-export default function Home() {
-  return(
-  <>
-  {/* <h1>heading</h1> */}
-  
-  </>
-  )
-  ;
+import About from '../components/About'
+export default function page() {
+  return  <About/>
+   
 }

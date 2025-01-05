@@ -32,7 +32,7 @@ export default function RootLayout({
  data-gr-ext-installed=""
       >
         <Navbar/>
-        {children}
+        <main style={{ padding: "1rem" }}>{children}</main>
     
       </body>
     </html>
