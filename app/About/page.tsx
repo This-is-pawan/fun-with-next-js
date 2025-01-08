@@ -3,7 +3,7 @@
 export default function page() {
   return (
     <div>
-      <h1 className="p-3">About page of About folder </h1>
+      <h1 className="p-3">About page  </h1> <p>This is a about page of nextjs 🧪</p>
     </div>
   )
 }
